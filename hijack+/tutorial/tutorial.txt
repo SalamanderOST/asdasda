@@ -1,0 +1,30 @@
+Discord Token (required for Account nuker (get access to the victims account), DM Spammer (Needed to send messages through your account.))
+----------
+You have to run the developer.exe file. It gives access to inspect elements in the Discord app.
+
+Now in the Discord app press CTRL + Shift + i on your keyboard.
+
+In the window that popped up you wanna go to the top and press the '>>' button then Network if it is not already selected. If it is selected it should look like 'Network  >>' in that case just press Network.
+
+Now you need to press CTRL + R to refresh discord and you wanna spot a request called "science".
+
+Now select Headers and scroll down untill you find "authorization:" and copy the token.
+
+
+
+How to get someones id
+----------
+In discord go to settings -> Advanced -> enable Developer mode.
+
+Now right click on the person and press the 'Copy ID' button.
+
+
+
+Get the path
+----------
+similairly to getting your Token you will need to press CTRL + Shift + i and go to Network.
+
+Send a message to the victim and find the request called 'messages'.
+
+Press Headers and find 'Request URL:' which can be found at the top and copy the api link.
+
